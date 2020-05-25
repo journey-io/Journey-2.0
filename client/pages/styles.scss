@@ -30,3 +30,19 @@ a {
     color: $accentfont;
   }
 }
+
+#navbar {
+  height: 10vh;
+  max-height: 70px;
+  min-height: 35px;
+  background-color: $navbg;
+  display: flex;
+  align-items: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.navlinks {
+  margin-left: 15vw;
+  font-size: 0.8rem;
+}
