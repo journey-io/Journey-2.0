@@ -19,4 +19,14 @@ body {
   background-color: $mainbg;
   color: $mainfont;
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: $mainfont;
+  text-decoration: none;
+
+  &:hover {
+    color: $accentfont;
+  }
 }
