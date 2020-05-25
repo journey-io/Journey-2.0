@@ -1,0 +1,19 @@
+$mainbg: #242b44;
+$accentbg: #2a324f;
+$navbg: #22273d;
+$mainfont: #f6f6f7;
+$accentfont: #c1c7d8;
+$mainbtn: #5d35f1;
+$secondarybtn: #5d35f1;
+$tertiarybtn: #ff5970;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $mainbg;
+  color: $mainfont;
+}

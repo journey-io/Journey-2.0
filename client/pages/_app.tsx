@@ -6,6 +6,8 @@ Simply render whatever components are to be displayed either above or below
 
 import { AppProps } from 'next/app';
 
+import './styles.scss';
+
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
